@@ -1,7 +1,10 @@
 package poo;
 
 public class Cartao {
-	
+	/**
+	 * Atribuiçao de variaveis
+	 */
+	// atributos
 	private String nomeFuncionario;
 	private String servico;
 	private String cargo;
@@ -11,14 +14,22 @@ public class Cartao {
 		super();
 		this.nomeFuncionario = nomeFuncionario;
 	}
-
+/**
+ * Distribuiçao 
+ * @param nomeFuncionario
+ * @param servico
+ * @param cargo
+ */
 	public Cartao(String nomeFuncionario, String servico, String cargo) {
 		super();
 		this.nomeFuncionario = nomeFuncionario;
 		this.servico = servico;
 		this.cargo = cargo;
 	}
-
+/**
+ * 
+ * @return
+ */
 	// Acessores
 	
 	public String getNomeFuncionario() {
